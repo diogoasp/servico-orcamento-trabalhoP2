@@ -22,7 +22,10 @@ def set(id, id_p_qtd):
 			else:
 				orc[2].append(id_p_qtd)
 				return 1
-	budget.append([id, 0, [id_p_qtd]])
+	if id_p_qtd:
+		budget.append([id, 1, [id_p_qtd]])
+	else:
+		budget.append([id, 0, [id_p_qtd]])
 	return 1
 
 def get(id):

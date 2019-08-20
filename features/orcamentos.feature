@@ -12,9 +12,8 @@ Feature: Budget Register
           | id | p_id | p_qtd | result  |
           | 1  |   1  |   5   |"success"|
           | 1  |   2  |   4   |"success"|
-          | 1  |   3  |   3   |"success"|
           | 1  |   5  |   0   |  "fail" |
           | 2  |   4  |   2   |"success"|
           | 2  |   3  |   2   |"success"|
-          | 2  |   1  |   2   |"success"|
           | 2  |   1  |   0   |  "fail" |
+          | 3  |   3  |   2   |"success"|
